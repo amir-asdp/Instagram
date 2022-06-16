@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <inset android:drawable="@drawable/common_google_signin_btn_text_dark_normal"/>
+    </item>
+
+    <item>
+        <inset android:drawable="@drawable/common_google_signin_btn_text_light_normal"/>
+    </item>
+
+</selector>

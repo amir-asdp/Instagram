@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/instagram_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Instagram"
+        android:textColor="#FFF"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="6dp"
+        android:layout_weight="1"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Sign up to see photos and videos from your friends"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.7"
+        android:background="@drawable/changeedittxtbuttcolor"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="0.4"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="1dp"
+            android:background="#FFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="OR"
+            android:textColor="#FFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="1dp"
+            android:background="#FFF" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="4dp"
+        android:layout_weight="0.7"
+        android:background="@drawable/edittxt_shape">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00000000"
+            android:gravity="start|center_vertical"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="16dp"
+            android:textCursorDrawable="@color/blue"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/green_check_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_foursquare_check_in"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/emailtxt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="0.3"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="@color/red"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="4dp"
+        android:layout_weight="0.7"
+        android:background="@drawable/edittxt_shape">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00000000"
+            android:gravity="start|center_vertical"
+            android:hint="Username"
+            android:inputType="text"
+            android:maxLength="35"
+            android:paddingLeft="16dp"
+            android:textCursorDrawable="@color/blue"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/green_check_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_foursquare_check_in"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/usernametxt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="0.3"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="@color/red"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="4dp"
+        android:layout_weight="0.7"
+        android:background="@drawable/edittxt_shape">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#00000000"
+            android:gravity="start|center_vertical"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLength="30"
+            android:paddingLeft="16dp"
+            android:textCursorDrawable="@color/blue"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/passwordvisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_hide" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/password_strong_weak"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="0.3"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="#F51010"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.7"
+        android:background="@drawable/changeedittxtbuttcolor"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="1"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="By signing up, you agree to our Term, Data Policy and Cookies Policy."
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+</LinearLayout>

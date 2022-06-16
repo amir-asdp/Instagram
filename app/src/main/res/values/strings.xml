@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Instagram</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout_message">Do you want to logout ?</string>
+    <string name="logout_action">logout</string>
+    <string name="delete_account_message">Do you really want to delete your account ?!</string>
+    <string name="delete_account_action">delete_account</string>
+
+</resources>

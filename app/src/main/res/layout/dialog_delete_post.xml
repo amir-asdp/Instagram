@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="270dp"
+    android:layout_height="100dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/dialog_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+        <TextView
+            android:id="@+id/dialog_delete_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:text="Do you want to delete this post?" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+
+                android:id="@+id/no_delete_post"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/answer_btn_bg"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:text="No" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/yes_delete_post"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/answer_btn_bg"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:text="Yes" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
